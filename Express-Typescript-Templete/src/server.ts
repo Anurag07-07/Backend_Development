@@ -1,6 +1,5 @@
 import express from 'express'
 import { serverConfig } from './config/index.js';
-import { pingHandler } from './controllers/ping.controller.js';
 import v1Router from './routers/v1/index.router.js';
 import v2Router from './routers/v2/index.router.js';
 
